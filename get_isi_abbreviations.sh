@@ -22,7 +22,7 @@ fi
 for letter in "0-9" A B C D E F G H I J K L M N O P Q R S T U V W X Y Z; do
 	echo $letter
 	# get each page from the internet
-	curl "http://images.isiknowledge.com/WOK45/help/WOS/"$letter"_abrvjt.html" > $tmpDir/$letter.html
+	curl "http://images.isiknowledge.com/WOK45/help/WOS/"$letter"_abrvjt.html" > $tmpDir/$letter.html (The link has vanished)
 done
 
 cd $tmpDir
